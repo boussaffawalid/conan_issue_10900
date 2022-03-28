@@ -1,0 +1,20 @@
+[settings]
+os=Windows
+os_build=Windows
+arch=x86_64
+arch_build=x86_64
+compiler=Visual Studio
+compiler.version=16
+build_type=RelWithDebInfo
+
+[options]
+
+[tool_requires]
+
+[env]
+CC=cl.exe
+CXX=cl.exe
+
+[conf]
+tools.microsoft.bash:subsystem=msys
+tools.microsoft.bash:path=C:/Program Files/Git/bin/bash.exe
